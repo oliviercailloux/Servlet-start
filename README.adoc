@@ -1,0 +1,10 @@
+= Servlets-start
+
+* Create a skeleton project as indicated in the Servlets doc.
+* Change the Maven coordinates to suitable ones by following the best practices.
+* Add a servlet that receives a string at address `localhost/servlets-start-app/writemystring/`, and remembers it (in memory); the parameter must be named `mystring`.
+* Add a servlet that serves that string it has remembered, at address `localhost/servlets-start-app/mystring`.
+* Choose wisely the HTTP methods that you servlets accept.
+* Add an html file with a title exactly equal to “Bonjour, monde étonnant !”, served at `localhost/servlets-start-app/hello.html`.
+* Put a file `curl.txt` at the root of your repository that contains three curl commands (exactly one per line) to test your server: the first two commands call your servlets to write and read back exactly the string “Bonjour, monde étonnant !”, and the third one retrieves the html file. The commands must show the headers sent by the server as well.
+
